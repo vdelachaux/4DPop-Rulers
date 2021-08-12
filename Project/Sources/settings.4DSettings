@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="16">
+	<com.4d>
+		<interface>
+			<misc formula_editor_with_full_lists="false"/>
+			<user can_change_password="true" display_list="false" print_progress="false"/>
+			<developper/>
+			<shortcuts>
+				<accept_input_form alt="false" command="false" ctrl="false" key_code="0" shift="false"/>
+				<cancel_input_form alt="false" command="false" ctrl="false" key_code="0" shift="false"/>
+				<add_subform alt="false" command="false" ctrl="false" key_code="0" shift="false"/>
+			</shortcuts>                </interface>
+		<web>
+			<standalone_server>
+				<configuration automatic_session_management="true" ip_address="0" listening_address="::" port_number="8080" session_mode="2">
+					<hosts>
+						<host home_page="index.html" html_root="./DossierWeb/" id="0" name="Default"/>
+					</hosts>
+				</configuration>
+				<misc use_4dvar_comments="false"/>
+				<options>
+					<web_processes timeout_for_inactives="5"/>
+					<cache cache_max_size="524288" use_4d_web_cache="false"/>
+					<web_passwords generic_web_user="2"/>
+					<filters allow_4dsync_urls="true"/>                                      </options>
+				<log>
+					<backup daily="" hourly="" monthly="" size="0" weekly=""/>
+				</log>                              </standalone_server>
+			<remote>
+				<misc/>
+				<options>
+					<web_processes timeout_for_inactives="5"/>
+					<cache cache_max_size="524288" use_4d_web_cache="false"/>
+					<web_passwords generic_web_user="1"/>
+					<filters allow_4dsync_urls="true"/>                                      </options>
+				<configuration allow_ssl="false" automatic_session_management="true" ip_address="0" session_mode="2"/>
+				<webservices allow_requests="false"/>                                      </remote>                </web>
+		<database>
+			<cache flush_buffer_delay="20s" size_minimum="16"/>
+			<cpu_priority/>
+			<misc standard_xpath="false"/>                </database>
+		<compiler>
+			<options compilation_path="3" fat_binary="true" target="all"/>
+			<typage default_for_button="2"/>
+			<method_suffix arrays="" interprocess_arrays="" interprocess_variables="" methods="" variables=""/>                      </compiler>
+		<general execute_host_database_event="true">
+			<mover always_display_dialog="1"/>          </general>
+		<sql>
+			<publication port_number="1919"/>
+		</sql>
+		<server>
+			<network>
+				<options publication_name="4DPop_Rulers" publish_at_startup="false" use_legacy_network_layer="false"/>
+			</network>
+			<misc/>
+		</server>
+		<deployment>
+			<options/>
+		</deployment>
+		<php ip_address="127.0.0.1"/>                      </com.4d>  </preferences>

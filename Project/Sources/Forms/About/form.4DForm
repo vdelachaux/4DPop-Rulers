@@ -1,0 +1,211 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "4DPop Rulers",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 732,
+	"height": 327,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"pages": [
+		{
+			"objects": {
+				"Image4": {
+					"type": "picture",
+					"top": 128,
+					"left": 133,
+					"width": 349,
+					"height": 52,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image4.tif"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 57,
+					"left": 158,
+					"height": 63,
+					"stroke": "#AAAAAA"
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 139,
+					"left": 70,
+					"width": 52,
+					"stroke": "#AAAAAA"
+				},
+				"Ligne3": {
+					"type": "line",
+					"top": 109,
+					"left": 70,
+					"height": 30,
+					"stroke": "#AAAAAA"
+				},
+				"Ligne4": {
+					"type": "line",
+					"top": 139,
+					"left": 399,
+					"height": 94,
+					"stroke": "#AAAAAA"
+				},
+				"Ligne5": {
+					"type": "line",
+					"top": 87,
+					"left": 269,
+					"height": 36,
+					"stroke": "#AAAAAA"
+				},
+				"Ligne6": {
+					"type": "line",
+					"top": 137,
+					"left": 486,
+					"width": 20,
+					"height": 1,
+					"stroke": "#AAAAAA"
+				},
+				"Ligne7": {
+					"type": "line",
+					"top": 137,
+					"left": 506,
+					"height": 64,
+					"stroke": "#AAAAAA"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 94,
+					"left": 15,
+					"width": 113,
+					"height": 11,
+					"stroke": "#444444",
+					"class": "_small",
+					"textAlign": "center",
+					"text": ":xliff:CloseButton"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 38,
+					"left": 138,
+					"width": 287,
+					"height": 11,
+					"stroke": "#444444",
+					"class": "_small",
+					"textAlign": "left",
+					"text": ":xliff:Switch"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 70,
+					"left": 249,
+					"width": 238,
+					"height": 22,
+					"stroke": "#444444",
+					"class": "_small",
+					"textAlign": "left",
+					"text": ":xliff:InteractiveTickMark"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 206,
+					"left": 486,
+					"width": 222,
+					"height": 55,
+					"stroke": "#444444",
+					"class": "_small",
+					"textAlign": "left",
+					"text": ":xliff:ModifyTheSizeOfTheWindow"
+				},
+				"Image3": {
+					"type": "picture",
+					"top": 122,
+					"left": 455,
+					"width": 3,
+					"height": 183,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image3.tif"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 233,
+					"left": 202,
+					"width": 221,
+					"height": 33,
+					"stroke": "#444444",
+					"class": "_small",
+					"textAlign": "right",
+					"text": ":xliff:ClickToMoveTheRule"
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 289,
+					"left": 33,
+					"width": 385,
+					"height": 11,
+					"stroke": "#444444",
+					"class": "_small",
+					"textAlign": "right",
+					"text": ":xliff:DeleteGuide"
+				},
+				"Ligne8": {
+					"type": "line",
+					"top": 295,
+					"left": 423,
+					"width": 30,
+					"stroke": "#AAAAAA"
+				},
+				"Ligne9": {
+					"type": "line",
+					"top": 147,
+					"left": 193,
+					"height": 54,
+					"stroke": "#AAAAAA"
+				},
+				"Texte7": {
+					"type": "text",
+					"top": 207,
+					"left": 9,
+					"width": 204,
+					"height": 11,
+					"stroke": "#444444",
+					"class": "_small",
+					"textAlign": "right",
+					"text": ":xliff:ClickHereToDisplayAMenu"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Bouton invisible": {
+					"type": "button",
+					"top": 1,
+					"left": 1,
+					"width": 730,
+					"height": 325,
+					"dataSource": "",
+					"action": "cancel",
+					"display": false
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	},
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}
