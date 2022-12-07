@@ -4,17 +4,17 @@
 
   <dict>
     <key>CFBundleShortVersionString</key>
-    <string>19R4 (271377)</string>
+    <string>19R6</string>
     <key>CFBundleLongVersionString</key>
-    <string>19R4 (271377)</string>
+    <string>19R6 (271378)</string>
     <key>NSHumanReadableCopyright</key>
-    <string>©VDL 2021</string>
+    <string>©vdl 2007-2022</string>
     <key>CFBundleVersion</key>
-    <string>271377</string>
+    <string>271378</string>
     <key>CFBundleName</key>
     <string>4DPop Rulers</string>
     <key>CFBundleGetInfoString</key>
-    <string>4DPop Rulers</string>
+    <string>19R6</string>
     <key>CFBundleDisplayName</key>
     <string>4DPop Rulers</string>
   </dict>
