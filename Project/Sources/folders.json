@@ -1,3 +1,18 @@
 {
+	"_o_": {},
+	"- #️⃣ API": {},
+	"-👥 NAMESPACE": {},
+	"# 🚧 DEV": {},
+	"♻️ LIBRAIRIES": {},
+	"⚙️ MACROS": {},
+	"📦 COMPONENT": {},
+	"🛠️ Tools": {},
+	"4️⃣ 4DPop": {
+		"methods": [
+			"_4DPopRulers",
+			"COMPILER_4DPop",
+			"main"
+		]
+	},
 	"trash": {}
 }
