@@ -5,7 +5,20 @@
 	"# 🚧 DEV": {},
 	"♻️ LIBRAIRIES": {},
 	"⚙️ MACROS": {},
-	"📦 COMPONENT": {},
+	"📦 COMPONENT": {
+		"methods": [
+			"Compiler_Methods",
+			"Compiler_Variables",
+			"ContextualMenu",
+			"DeleteGuidelines",
+			"Splitter"
+		],
+		"forms": [
+			"About",
+			"SCREEN_RULER",
+			"Splitter"
+		]
+	},
 	"🛠️ Tools": {},
 	"4️⃣ 4DPop": {
 		"methods": [
