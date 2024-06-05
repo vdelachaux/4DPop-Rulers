@@ -23,7 +23,6 @@
 	"4️⃣ 4DPop": {
 		"methods": [
 			"_4DPopRulers",
-			"COMPILER_4DPop",
 			"main"
 		]
 	},
