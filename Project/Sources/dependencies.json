@@ -52,9 +52,17 @@
       "github": "vdelachaux/4DPop-Pasteboard",
       "version": "latest"
     },
-    "4DPop Rulers": {},
-    "4DPop sqlSchemas": {},
-    "4DPop Window": {},
-    "4DPop Clipboard": {}
+    "4DPop Rulers": {
+      "github": "vdelachaux/4DPop-Rulers",
+      "version": "latest"
+    },
+    "4DPop sqlSchemas": {
+      "github": "vdelachaux/4DPop-sqlSchemas",
+      "version": "latest"
+    },
+    "4DPop Window": {
+      "github": "vdelachaux/4DPop-Window",
+      "version": "latest"
+    }
   }
 }
