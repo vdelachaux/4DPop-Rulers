@@ -1,8 +1,8 @@
 // ----------------------------------------------------
 // Method : Méthode formulaire : Splitter
-// Created 12/12/06 by Vincent de Lachaux 
+// Created 12/12/06 by Vincent de Lachaux
 // ----------------------------------------------------
-C_LONGINT:C283($Lon_wLeft; $Lon_wTop; $Lon_wRight; $Lon_wBottom; $Lon_Event; $Lon_wReference)
+var $Lon_Event; $Lon_wBottom; $Lon_wLeft; $Lon_wReference; $Lon_wRight; $Lon_wTop : Integer
 
 $Lon_Event:=Form event code:C388
 

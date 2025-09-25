@@ -1,4 +1,5 @@
-C_LONGINT:C283($Lon_Event; $Lon_Cursor; $Lon_wLeft; $Lon_wTop; $Lon_wRight; $Lon_wBottom; $Lon_wReference; $Lon_Unused)
+var $Lon_Cursor; $Lon_Event; $Lon_Unused; $Lon_wBottom; $Lon_wLeft; $Lon_wReference : Integer
+var $Lon_wRight; $Lon_wTop : Integer
 
 $Lon_Event:=Form event code:C388
 $Lon_wReference:=Current form window:C827

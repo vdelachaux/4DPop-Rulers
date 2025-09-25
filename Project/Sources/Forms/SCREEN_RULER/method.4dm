@@ -4,14 +4,18 @@
 // Created 17/09/02 par Vincent de Lachaux
 // ----------------------------------------------------
 // Modified by Vincent de Lachaux (12/12/06)
-// for v11 and adding mouse tracking  
+// for v11 and adding mouse tracking
 // ----------------------------------------------------
-C_LONGINT:C283($Lon_Offset; $Lon_wBottom; $Lon_Event; $Lon_Width; $Lon_Height; $Lon_wLeft; $Lon_wRight; $Lon_wTop; $Lon_Page)
-C_LONGINT:C283($Lon_Left; $Lon_Top; $Lon_Right; $Lon_Bottom; $Lon_Button; $Lon_wReference)
+var $Lon_Bottom; $Lon_Button; $Lon_Event; $Lon_Height; $Lon_Left; $Lon_Offset : Integer
+var $Lon_Page; $Lon_Right; $Lon_Top; $Lon_wBottom; $Lon_Width; $Lon_wLeft : Integer
+var $Lon_wReference; $Lon_wRight; $Lon_wTop : Integer
 
 $Lon_Event:=Form event code:C388
 $Lon_wReference:=Current form window:C827
 $Lon_Page:=FORM Get current page:C276
+
+
+var <>Lon_Timer_Event; <>Lon_X; <>Lon_Y; <>Lon_Unit : Integer
 
 Case of 
 		//________________________________________________________________________________
@@ -20,7 +24,7 @@ Case of
 		$Lon_Event:=<>Lon_Timer_Event
 		<>Lon_Timer_Event:=0
 		GET WINDOW RECT:C443($Lon_wLeft; $Lon_wTop; $Lon_wRight; $Lon_wBottom; $Lon_wReference)
-		GET MOUSE:C468(<>Lon_X; <>Lon_Y; $Lon_Button)
+		MOUSE POSITION:C468(<>Lon_X; <>Lon_Y; $Lon_Button)
 		
 		Case of 
 				//______________________________________________________
@@ -64,7 +68,7 @@ Case of
 					<>Lon_Unit:=1
 				End if 
 				OBJECT SET VISIBLE:C603(*; "@"+String:C10(<>Lon_Unit); True:C214)
-				<>Txt_Unit:=Get localized string:C991("Unit_"+String:C10(<>Lon_Unit+Num:C11((<>Lon_Unit=4) & ($Lon_Page=2))))
+				var <>Txt_Unit:=Localized string:C991("Unit_"+String:C10(<>Lon_Unit+Num:C11((<>Lon_Unit=4) & ($Lon_Page=2))))
 				//______________________________________________________
 		End case 
 		

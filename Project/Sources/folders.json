@@ -7,8 +7,6 @@
 	"⚙️ MACROS": {},
 	"📦 COMPONENT": {
 		"methods": [
-			"Compiler_Methods",
-			"Compiler_Variables",
 			"ContextualMenu",
 			"DeleteGuidelines",
 			"Splitter"

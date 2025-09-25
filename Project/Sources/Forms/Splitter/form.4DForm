@@ -40,7 +40,6 @@
 					"height": 1,
 					"sizingX": "grow",
 					"sizingY": "grow",
-					"dataSource": "<>bUtil",
 					"tooltip": ":xliff:DeleteGuide",
 					"display": false,
 					"method": "ObjectMethods/Main.4dm",
@@ -67,5 +66,9 @@
 			"Vue 8": {},
 			"Vue 9": {}
 		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

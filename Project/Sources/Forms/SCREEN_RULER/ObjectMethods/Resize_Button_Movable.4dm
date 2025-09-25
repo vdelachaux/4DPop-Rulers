@@ -1,4 +1,4 @@
-C_LONGINT:C283($Lon_Event; $Lon_wLeft; $Lon_wTop; $Lon_wRight; $Lon_wBottom; $Lon_wReference)
+var $Lon_Event; $Lon_wBottom; $Lon_wLeft; $Lon_wReference; $Lon_wRight; $Lon_wTop : Integer
 
 $Lon_Event:=Form event code:C388
 
@@ -25,4 +25,3 @@ Case of
 		End if 
 		//______________________________________________________
 End case 
-

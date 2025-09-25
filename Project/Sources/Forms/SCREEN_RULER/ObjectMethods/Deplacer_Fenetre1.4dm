@@ -1,4 +1,4 @@
-C_LONGINT:C283($Lon_Event; $Lon_Process)
+var $Lon_Event; $Lon_Process : Integer
 
 $Lon_Event:=Form event code:C388
 
